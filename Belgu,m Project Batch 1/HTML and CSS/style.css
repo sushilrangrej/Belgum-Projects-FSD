@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    border: 5px solid black;
+    min-height: 600px;
+    gap: 20px;
+    
+}
+
+.box1{
+    flex-grow: 1;
+    display: flex;
+    background-color: rgb(255, 11, 11);
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    flex-grow: 0;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: aqua;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
