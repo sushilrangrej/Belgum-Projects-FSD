@@ -1,0 +1,10 @@
+.button-columns{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.button-columns button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
